@@ -1,0 +1,8 @@
+version: '3.6'
+
+services:
+  crater:
+    image: apastorts/crater
+    build: .
+    ports:
+      - 80:80
